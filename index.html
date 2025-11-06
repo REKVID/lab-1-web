@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лабораторная работа - Основы веб‑технологий 241‑361</title>
+  <meta name="description" content="Домашняя страница лабораторной работы по предмету Основы веб‑технологий (группы 241‑361, 362).">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">Основы веб‑технологий</div>
+      <nav class="nav">
+        <a href="#about">О работе</a>
+        <a href="#materials">Учебные материалы</a>
+        <a href="#env">Рабочее окружение</a>
+        <a href="#plan">Таблица тем</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Лабораторная работа по предмету «Основы веб‑технологий» (241‑361)</h1>
+          <p>Цель: познакомиться с базовыми инструментами фронтенд‑разработки, создать аккуратно оформленную домашнюю страницу с навигацией, изображениями, таблицей и подключённым шрифтом из Google Fonts.</p>
+          <p>На этой странице собраны требования, материалы для изучения и краткий план тем, с которыми мы будем работать в рамках лабораторных занятий.</p>
+        </div>
+        <div class="hero-media">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1480&auto=format&fit=crop" alt="Рабочее место разработчика с ноутбуком" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="materials" class="section">
+      <div class="container">
+        <h2>Рекомендуемые учебно‑методические материалы</h2>
+        <ul class="link-list">
+          <li><a href="https://developer.mozilla.org/ru/" target="_blank" rel="noopener">Веб‑документация MDN</a></li>
+          <li><a href="https://learn.javascript.ru/" target="_blank" rel="noopener">Современный учебник JavaScript</a></li>
+          <li><a href="https://htmlacademy.ru/" target="_blank" rel="noopener">Материалы курсов HTML Academy</a></li>
+          <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" rel="noopener">Документация к Bootstrap 5</a></li>
+          <li><a href="https://www.w3.org/TR/?tag=css" target="_blank" rel="noopener">Стандарты HTML и CSS от W3C</a></li>
+          <li><a href="https://html5book.ru/" target="_blank" rel="noopener">HTML5 Book</a></li>
+          <li><a href="https://google.github.io/styleguide/htmlcssguide.html" target="_blank" rel="noopener">Google HTML/CSS Style Guide</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="env" class="section alt">
+      <div class="container">
+        <h2>Ресурсы для настройки рабочего окружения</h2>
+        <ul class="link-list">
+          <li><a href="#" aria-disabled="true">Хостинг университета</a> (или любой бесплатный хостинг: GitHub Pages, Netlify)</li>
+          <li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">Visual Studio Code</a></li>
+          <li><a href="https://code.visualstudio.com/docs/remote/ssh" target="_blank" rel="noopener">Remote‑SSH</a></li>
+          <li><a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git for Windows</a></li>
+          <li><a href="https://git-scm.com/docs" target="_blank" rel="noopener">Учебные материалы по Git</a></li>
+          <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank" rel="noopener">PuTTY</a></li>
+          <li><a href="https://filezilla-project.org/" target="_blank" rel="noopener">FileZilla</a></li>
+          <li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank" rel="noopener">Generating a new SSH key and adding it to the ssh‑agent</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="plan" class="section">
+      <div class="container">
+        <h2>Далее в курсе:</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Занятие</th>
+                <th>Тема</th>
+                <th>Что делаем на практике</th>
+                <th>Результат</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>HTML‑основы</td>
+                <td>Структура страницы, семантические теги, ссылки, изображения</td>
+                <td>Каркас домашней страницы</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>CSS‑базовые стили</td>
+                <td>Цвета, отступы, шрифты, позиционирование</td>
+                <td>Аккуратное оформление страницы</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Сетки и адаптив</td>
+                <td>Flexbox/Grid, медиазапросы</td>
+                <td>Корректное отображение на мобильных</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Фреймворки</td>
+                <td>Подключение Bootstrap 5 (по желанию)</td>
+                <td>Быстрое прототипирование компонентов</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Публикация</td>
+                <td>Git/GitHub, GitHub Pages/Netlify</td>
+                <td>Сайт доступен по публичной ссылке</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts" class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Контакты</strong>
+        <p>GitHub: https://github.com/REKVID</p>
+      </div>
+      <div class="copyright">Лабораторная работа — Основы веб‑технологий</div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
